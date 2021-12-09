@@ -1,10 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Inter:wght@300&family=Poppins:wght@100&family=Roboto&display=swap");
 
-html {
-  width: 1100px;
-  background-color: whitesmoke;
-}
-
 body {
   margin: 0;
   padding: 0;
@@ -22,7 +17,6 @@ body {
 .home {
   color: #fff;
   width: 1100px;
-  height: 730px;
 }
 
 header {
@@ -241,8 +235,6 @@ ul {
 .works {
   display: grid;
   grid-template-rows: 4% 35% 31% 31%;
-  height: 1650px;
-  height: 1500px;
 }
 
 .advert {
@@ -780,7 +772,6 @@ ul {
   grid-template-columns: 41% 59%;
   grid-template-rows: 60% 10% 30%;
   background-color: #e5e5e5;
-  height: 650px;
   width: 1100px;
 }
 
@@ -1010,7 +1001,7 @@ ul {
 }
 
 @media (max-width: 540px) {
-  body {
+  .grid {
     background: chocolate;
   }
 }
