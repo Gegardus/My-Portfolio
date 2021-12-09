@@ -106,19 +106,19 @@ a {
 
 .main {
   margin-left: 50px;
-  align-self: center;
+  align-self: center;  
 }
 
 .main h1 {
   color: #f55800;
-  height: 160px;
+  height: 111px;
   width: 500px;
   left: 0;
   font-family: Crete Round;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
-  line-height: 82px;
+  line-height: 52px;
   letter-spacing: 0;
   text-align: left;
   margin-top: 15px;
@@ -133,7 +133,7 @@ a {
   font-size: 21px;
   font-style: normal;
   font-weight: 500;
-  line-height: 44px;
+  line-height: 34px;
   letter-spacing: 0;
   text-align: left;
 }
@@ -147,7 +147,7 @@ a {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  line-height: 32px;
+  line-height: 28px;
   letter-spacing: 0;
   text-align: left;
   margin-top: 0;
@@ -1021,4 +1021,10 @@ form ul {
 .boot:active,
 .ruby:active {
   background: #ff7f50;
+}
+
+@media (max-width: 540px) {
+  body {
+    background: chocolate;
+  }
 }
