@@ -28,7 +28,7 @@ body {
 header {
   left: 0;
   top: 0;
-  border-radius: 0px;
+  border-radius: 0;
   background-color: #3e3c3c;
   display: flex;
   justify-content: space-around;
@@ -58,7 +58,7 @@ a {
 }
 
 .portfolio {
-  color: #ffffff;
+  color: #fff;
   height: 20px;
   width: 63px;
   left: 12px;
@@ -67,7 +67,7 @@ a {
 }
 
 .about {
-  color: #ffffff;
+  color: #fff;
   height: 20px;
   width: 45px;
   left: 12px;
@@ -76,7 +76,7 @@ a {
 }
 
 .contacts {
-  color: #ffffff;
+  color: #fff;
   height: 20px;
   width: 59px;
   left: 12px;
@@ -114,7 +114,7 @@ a {
   height: 111px;
   width: 500px;
   left: 0;
-  font-family: Crete Round;
+  font-family: Crete Round, serif;
   font-size: 40px;
   font-style: normal;
   font-weight: 400;
@@ -129,7 +129,7 @@ a {
   height: 44px;
   width: 500px;
   color: #fff;
-  font-family: Inter;
+  font-family: Inter, serif;
   font-size: 21px;
   font-style: normal;
   font-weight: 500;
@@ -143,7 +143,7 @@ a {
   width: 500px;
   left: 0;
   color: #f4f5f7;
-  font-family: Inter;
+  font-family: Inter, serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -242,6 +242,7 @@ ul {
   display: grid;
   grid-template-rows: 4% 35% 31% 31%;
   height: 1650px;
+  height: 1500px;
 }
 
 .advert {
@@ -253,12 +254,12 @@ ul {
   color: #091e42;
   height: 42px;
   width: 290px;
-  font-family: Crete Round;
+  font-family: Crete Round, serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 400;
   line-height: 52px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   margin-top: 0;
   margin-left: 20px;
@@ -289,8 +290,7 @@ ul {
   border-radius: 0;
 }
 
-.works {
-  height: 1500px;
+.works {  
 }
 
 .multi-works {
@@ -316,7 +316,7 @@ ul {
   left: 0;
   top: 0;
   border-radius: 0;
-  font-family: Crete Round;
+  font-family: Crete Round, serif;
   font-size: 26px;
   font-style: normal;
   font-weight: 400;
@@ -329,7 +329,7 @@ ul {
   color: #091e42;
   height: 150px;
   width: 308px;
-  font-family: Inter;
+  font-family: Inter, serif;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -513,12 +513,12 @@ ul {
 
 .work2 h3,
 .work5 h3 {
-  color: #ffffff;
+  color: #fff;
   height: 81px;
   width: 337px;
   left: 16px;
   top: 8px;
-  font-family: Crete Round;
+  font-family: Crete Round, serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -529,12 +529,12 @@ ul {
 
 .work2 p,
 .work5 p {
-  color: #ffffff;
+  color: #fff;
   height: 72px;
   width: 337px;
   left: 16px;
   top: 113px;
-  font-family: Inter;
+  font-family: Inter, serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -545,12 +545,12 @@ ul {
 
 .work3 h3,
 .work6 h3 {
-  color: #ffffff;
+  color: #fff;
   height: 38px;
   width: 337px;
   left: 16px;
   top: 8px;
-  font-family: Crete Round;
+  font-family: Crete Round, serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -561,27 +561,27 @@ ul {
 
 .work3 p,
 .work6 p {
-  color: #ffffff;
+  color: #fff;
   height: 72px;
   width: 337px;
   left: 16px;
   top: 70px;
-  font-family: Inter;
+  font-family: Inter, serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
   line-height: 24px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
 }
 
 .work4 h3 {
-  color: #ffffff;
+  color: #fff;
   height: 81px;
   width: 337px;
   left: 16px;
   top: 8px;
-  font-family: Crete Round;
+  font-family: Crete Round, serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 400;
@@ -591,12 +591,12 @@ ul {
 }
 
 .work4 p {
-  color: #ffffff;
+  color: #fff;
   height: 72px;
   width: 337px;
   left: 16px;
   top: 113px;
-  font-family: Inter;
+  font-family: Inter, serif;
   font-size: 17px;
   font-style: normal;
   font-weight: 400;
@@ -613,7 +613,7 @@ ul {
   grid-template-rows: 30% 5% 30%;
 }
 
-.top {
+.aboutme .top {
   display: grid;
   grid-template-columns: 50% 50%;
   height: 450px;
@@ -643,8 +643,8 @@ ul {
   width: 480px;
   left: 0;
   top: 130px;
-  border-radius: undefinedpx;
-  font-family: Crete Round;
+  border-radius: 0;
+  font-family: Crete Round, serif;
   font-size: 56px;
   font-style: normal;
   font-weight: 400;
@@ -659,12 +659,12 @@ ul {
   width: 480px;
   left: 0;
   top: 232px;
-  font-family: Inter;
+  font-family: Inter, serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
 }
 
@@ -677,7 +677,7 @@ ul {
   font-size: 17px;
   height: 48px;
   width: 161px;
-  left: 0px;
+  left: 0;
   top: 404px;
   padding: 12px;
   border: none;
@@ -686,8 +686,7 @@ ul {
 .aboutme img {
   left: 0;
   top: 9px;
-  border-radius: 0;
-  margin-top: 0;
+  border-radius: 0;  
   margin-left: 20px;
   margin-top: 60px;
   height: 5px;
@@ -782,9 +781,7 @@ ul {
 .footer {
   display: grid;
   grid-template-columns: 41% 59%;
-
   grid-template-rows: 60% 10% 30%;
-
   background-color: #e5e5e5;
   height: 650px;
   width: 1100px;
@@ -802,7 +799,7 @@ ul {
   color: #262626;
   height: 256px;
   width: 400px;
-  font-family: Inter;
+  font-family: Inter, serif;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -815,22 +812,18 @@ ul {
   display: flex;
   flex-direction: column;
   margin-top: 55px;
-
   grid-column: 2/3;
   grid-row: 1/2;
 }
 
-form,
-form ul,
-.name,
-.mail {
+.form ul,.form .name,.form .mail {
   list-style-type: none;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
 }
 
-form ul {
+.form ul {
   width: 600px;
 }
 
@@ -928,7 +921,6 @@ form ul {
   right: 0;
   display: inline;
   padding: 2px;
-  position: relative;
   left: 451px;
 }
 
@@ -936,7 +928,7 @@ form ul {
   height: 70px;
 }
 
-.github {
+.carte .github {
   height: 20px;
   width: 17.985200881958008px;
 }
@@ -953,17 +945,17 @@ form ul {
   margin-bottom: 8px;
 }
 
-.angel {
+.carte .angel {
   height: 20px;
   width: 14.166671752929688px;
 }
 
-.twitter {
+.carte .twitter {
   height: 19.962478637695312px;
   width: 19.985925674438477px;
 }
 
-.medium {
+.carte .medium {
   height: 16px;
   width: 20px;
 }
