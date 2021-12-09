@@ -3,9 +3,9 @@
 # Project Name
 
 Setup-and-mobile-version-skeleton
-Contact-form
+Desktop-Form
 
-> This is my first portfolio project in Microverse curriculum.
+> This project is desktop version of my first portfolio project in Microverse curriculum.
 
 ![screenshot](./app_screenshot.png)
 
@@ -16,7 +16,7 @@ Contact-form
 
 ## Live Demo
 
-[Live Demo Link](https://gegardus.github.io/Contact-Form/)
+[Live Demo Link](https://gegardus.github.io/Desktop-Version/)
 
 ## Getting Started
 
