@@ -3,34 +3,23 @@
 # Project Name
 
 Setup-and-mobile-version-skeleton
-Desktop-Form
+Mobile-version
 
-> This project is desktop version of my first portfolio project in Microverse curriculum.
+> This is my first portfolio project in Microverse curriculum.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./app_screenshot1.png)
+![screenshot](./app_screenshot2.png)
 
 ## Built With
 
 - HTML
 - CSS
 
-## Live Demo
-
-[Live Demo Link](https://gegardus.github.io/Desktop-Version/)
-
 ## Getting Started
 
-To get a local copy up and running follow these simple example steps.
+To get a local copy, clone from the link below.
 
-### Prerequisites
-
-- VSCode
-- Github
-- Git
-
-### Setup
-
-Git clone https://github.com/Gegardus/Contact-Form/tree/form
+https://gegardus.github.io/Mobile-Version/
 
 ## Author
 
