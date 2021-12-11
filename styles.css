@@ -115,7 +115,8 @@
 
   .main {
     border-top: 1px solid slateblue;
-    background: #1c1a19 url(assets/images/Illustration-header.svg) 272px 240px no-repeat;
+    background: #1c1a19 url(assets/images/Illustration-header.svg) 272px 240px;
+    background-repeat: no-repeat;
     background-size: 110% 85%;
     height: 640px;
   }
@@ -708,8 +709,20 @@
     border-radius: 50px;
   }
 
-  .bn-button:hover {
-    background: #1817a2;
+  .bn-button:hover,
+  .pr-button:hover,
+  .resume:hover,
+  .touch:hover {
+    background: #fff5e1;
+    color: #f55800;
+  }
+
+  .bn-button:active,
+  .pr-button:active,
+  .resume:active,
+  .touch:active {
+    background: #e05304;
+    color: #f4f1f0;
   }
 
   .blue:hover {
@@ -740,18 +753,6 @@
     background: #820c02;
   }
 
-  .pr-button:hover {
-    background: #1817a2;
-  }
-
-  .resume:hover {
-    background: #0a6e2b;
-  }
-
-  .bn-button:active {
-    background: #b22222;
-  }
-
   .blue:active {
     background: #dc143c;
   }
@@ -780,14 +781,6 @@
     background: #ff7f50;
   }
 
-  .pr-button:active {
-    background: #b22222;
-  }
-
-  .resume:active {
-    background: #f00;
-  }
-
   /* This is footer part */
 
   .footer {
@@ -795,7 +788,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #fbf8f7;
+    background-color: #fff8f7;
   }
 
   .invitation {
@@ -936,14 +929,6 @@
     margin-left: 45px;
     top: 21px;
     border-radius: 10px;
-  }
-
-  .touch:hover {
-    background: #0a6e2b;
-  }
-
-  .touch:active {
-    background: #f00;
   }
 }
 
@@ -1731,7 +1716,7 @@
     display: grid;
     grid-template-columns: 41% 59%;
     grid-template-rows: 60% 10% 30%;
-    background-color: #e5e5e5;
+    background-color: #fff8f7;
   }
 
   .introduction {
@@ -1746,7 +1731,7 @@
     height: 256px;
     width: 350px;
     font-family: Inter, serif;
-    font-size: 32px;
+    font-size: 35px;
     font-style: normal;
     font-weight: 700;
     letter-spacing: 0;
@@ -1779,12 +1764,12 @@
 
   .break {
     height: 3px;
-    width: 580px;
+    width: 599px;
   }
 
   .text {
     height: 18px;
-    width: 295px;
+    width: 595px;
     left: 16px;
     top: 15px;
     font-family: Roboto, serif;
@@ -1845,9 +1830,8 @@
   .underline {
     margin-top: 70px;
     height: 5px;
-    width: 1050px;
+    width: 1650px;
     margin-left: 25px;
-    background-color: #dfe1e6;
   }
 
   .links {
@@ -1908,14 +1892,16 @@
   .pr-button:hover,
   .resume:hover,
   .touch:hover {
-    background: #0a6e2b;
+    background: #fff5e1;
+    color: #f55800;
   }
 
   .bn-button:active,
   .pr-button:active,
   .resume:active,
   .touch:active {
-    background: #f00;
+    background: #e05304;
+    color: #f4f1f0;
   }
 
   .blue:hover {

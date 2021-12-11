@@ -1,9 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Desktop Version
 
-Setup-and-mobile-version-skeleton
-Mobile-version
+for the Setup-and-mobile-version-skeleton project
 
 > This is my first portfolio project in Microverse curriculum.
 
