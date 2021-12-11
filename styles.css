@@ -709,78 +709,6 @@
     border-radius: 50px;
   }
 
-  .bn-button:hover,
-  .pr-button:hover,
-  .resume:hover,
-  .touch:hover {
-    background: #fff5e1;
-    color: #f55800;
-  }
-
-  .bn-button:active,
-  .pr-button:active,
-  .resume:active,
-  .touch:active {
-    background: #e05304;
-    color: #f4f1f0;
-  }
-
-  .blue:hover {
-    background: lightblue;
-  }
-
-  .orange:hover {
-    background: lightsalmon;
-  }
-
-  .pink:hover {
-    background-color: #c154c1;
-  }
-
-  .red:hover {
-    background: lightcoral;
-  }
-
-  .html:hover {
-    background: #9f4511;
-  }
-
-  .boot:hover {
-    background: #563d7c;
-  }
-
-  .ruby:hover {
-    background: #820c02;
-  }
-
-  .blue:active {
-    background: #dc143c;
-  }
-
-  .orange:active {
-    background: #dc143c;
-  }
-
-  .pink:active {
-    background-color: #dc143c;
-  }
-
-  .red:active {
-    background: #dc143c;
-  }
-
-  .html:active {
-    background: #ff7f50;
-  }
-
-  .boot:active {
-    background: #ff7f50;
-  }
-
-  .ruby:active {
-    background: #ff7f50;
-  }
-
   /* This is footer part */
 
   .footer {
@@ -929,6 +857,78 @@
     margin-left: 45px;
     top: 21px;
     border-radius: 10px;
+  }
+
+  .bn-button:hover,
+  .pr-button:hover,
+  .resume:hover,
+  .touch:hover {
+    background: #fff5e1;
+    color: #f55800;
+  }
+
+  .bn-button:active,
+  .pr-button:active,
+  .resume:active,
+  .touch:active {
+    background: #e05304;
+    color: #f4f1f0;
+  }
+
+  .blue:hover {
+    background: lightblue;
+  }
+
+  .orange:hover {
+    background: lightsalmon;
+  }
+
+  .pink:hover {
+    background-color: #c154c1;
+  }
+
+  .red:hover {
+    background: lightcoral;
+  }
+
+  .html:hover {
+    background: #9f4511;
+  }
+
+  .boot:hover {
+    background: #563d7c;
+  }
+
+  .ruby:hover {
+    background: #820c02;
+  }
+
+  .blue:active {
+    background: #dc143c;
+  }
+
+  .orange:active {
+    background: #dc143c;
+  }
+
+  .pink:active {
+    background-color: #dc143c;
+  }
+
+  .red:active {
+    background: #dc143c;
+  }
+
+  .html:active {
+    background: #ff7f50;
+  }
+
+  .boot:active {
+    background: #ff7f50;
+  }
+
+  .ruby:active {
+    background: #ff7f50;
   }
 }
 
