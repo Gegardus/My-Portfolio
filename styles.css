@@ -117,7 +117,7 @@
     border-top: 1px solid slateblue;
     background: #1c1a19 url(assets/images/Illustration-header.svg) 272px 240px;
     background-repeat: no-repeat;
-    background-size: 110% 85%; 
+    background-size: 110% 85%;
     height: 640px;
   }
 
@@ -1281,6 +1281,7 @@
 
   .project {
     background-color: #ff6b00;
+    width: 20px;
     height: 48px;
     color: #fff;
     text-decoration: none;
@@ -1339,7 +1340,7 @@
     line-height: 24px;
     letter-spacing: 0.03em;
     color: #fff;
-    background-color: #ff6b00;;
+    background-color: #ff6b00;
     border: none;
   }
 
@@ -1368,7 +1369,7 @@
 
   .list {
     margin-top: 387px;
-    width: 330px;
+    width: 369px;
   }
 
   .buttons {
