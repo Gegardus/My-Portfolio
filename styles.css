@@ -9,6 +9,10 @@
     overflow-x: hidden;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   .grid {
     display: none;
   }
@@ -17,10 +21,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-
-  a {
-    text-decoration: none;
   }
 
   .header {
@@ -115,8 +115,7 @@
 
   .main {
     border-top: 1px solid slateblue;
-    background: #1c1a19 url(assets/images/Illustration-header.svg) 272px 240px
-      no-repeat;
+    background: #1c1a19 url(assets/images/Illustration-header.svg) 272px 240px no-repeat;
     background-size: 110% 85%;
     height: 640px;
   }
@@ -249,10 +248,6 @@
 
   /* This is content part */
 
-  a {
-    text-decoration: none;
-  }
-
   .mobile {
     background-color: #fff;
     height: auto;
@@ -268,13 +263,13 @@
     width: 327px;
   }
 
-  .head {
+  .mobile .head {
     height: auto;
     align-self: center;
     padding-top: 40px;
   }
 
-  h1 {
+  .mobile h1 {
     text-align: center;
   }
 
@@ -398,10 +393,6 @@
   .red {
     width: 50px;
     height: 35px;
-  }
-
-  ul {
-    list-style-type: none;
   }
 
   .html,
@@ -896,7 +887,7 @@
     padding: 2px;
   }
 
-  .github {
+  #carte .github {
     height: 20px;
     width: 17.985200881958008px;
     top: 351px;
@@ -910,21 +901,21 @@
     border-radius: 0;
   }
 
-  .angel {
+  #carte .angel {
     height: 20px;
     width: 14.166671752929688px;
     top: 435px;
     border-radius: 0;
   }
 
-  .twitter {
+  #carte .twitter {
     height: 19.962478637695312px;
     width: 19.985925674438477px;
     top: 473px;
     border-radius: 0;
   }
 
-  .medium {
+  #carte .medium {
     height: 16px;
     width: 20px;
     top: 513px;
@@ -963,7 +954,7 @@
     overflow-x: hidden;
   }
 
-  container {
+  .container {
     display: none;
   }
 
@@ -1758,7 +1749,6 @@
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
-    line-height: 52px;
     letter-spacing: 0;
     text-align: left;
     line-height: 42px;
@@ -1773,8 +1763,8 @@
   }
 
   .form ul,
-  .form .name,
-  .form .mail {
+  .form .my-name,
+  .form .my-mail {
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -1867,7 +1857,7 @@
     grid-row: 3/4;
   }
 
-  #carte li {
+  #my-carte li {
     height: 150px;
     width: 375px;
     color: #505f79;
@@ -1882,7 +1872,7 @@
     height: 70px;
   }
 
-  .carte .github {
+  .my-carte .github {
     height: 20px;
     width: 17.985200881958008px;
   }
@@ -1899,17 +1889,17 @@
     margin-bottom: 8px;
   }
 
-  .carte .angel {
+  .my-carte .angel {
     height: 20px;
     width: 14.166671752929688px;
   }
 
-  .carte .twitter {
+  .my-carte .twitter {
     height: 19.962478637695312px;
     width: 19.985925674438477px;
   }
 
-  .carte .medium {
+  .my-carte .medium {
     height: 16px;
     width: 20px;
   }

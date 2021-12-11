@@ -15,11 +15,15 @@ Mobile-version
 - HTML
 - CSS
 
+## Live Demo
+
+[Live Demo Link](https://gegardus.github.io/Desktop-Version/)
+
 ## Getting Started
 
 To get a local copy, clone from the link below.
 
-https://gegardus.github.io/Mobile-Version/
+https://github.com/Gegardus/Desktop-Version/tree/desktop
 
 ## Author
 
