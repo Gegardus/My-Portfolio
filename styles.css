@@ -117,7 +117,7 @@
     border-top: 1px solid slateblue;
     background: #1c1a19 url(assets/images/Illustration-header.svg) 272px 240px;
     background-repeat: no-repeat;
-    background-size: 110% 85%;
+    background-size: 110% 85%; 
     height: 640px;
   }
 
@@ -932,6 +932,8 @@
   }
 }
 
+/* Desktop Version todo */
+
 @media (min-width: 992px) {
   html,
   body {
@@ -1042,7 +1044,7 @@
     justify-content: left;
     background: #1c1a19 url(assets/images/Illustration-header.svg);
     background-repeat: no-repeat;
-    background-size: 210% 80%;
+    background-size: 200% 120%;
   }
 
   .main {
