@@ -16,7 +16,7 @@ for the Setup-and-mobile-version-skeleton project
 
 ## Live Demo
 
-[Live Demo Link](https://gegardus.github.io/Desktop-Version/)
+[Live Demo Link](https://gegardus.github.io/My-Portfolio/)
 
 ## Getting Started
 
