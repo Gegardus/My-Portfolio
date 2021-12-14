@@ -270,7 +270,7 @@
     padding-top: 40px;
   }
 
-  .mobile h1 {
+  .mobile h2 {
     text-align: center;
   }
 
@@ -615,7 +615,7 @@
     height: 340px;
   }
 
-  .first h2 {
+  .first h3 {
     height: 50px;
     width: 175px;
     font-family: "InaiMathi", Roboto, sans-serif;
@@ -627,8 +627,8 @@
     text-align: left;
   }
 
-  .second h2,
-  .third h2 {
+  .second h3,
+  .third h3 {
     font-family: Inter, serif;
     font-size: 32px;
     font-style: normal;
@@ -729,7 +729,7 @@
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
-    line-height: 44px;
+    line-height: 40px;
     letter-spacing: 0;
     text-align: center;
   }
@@ -1654,7 +1654,7 @@
     height: 349px;
   }
 
-  .profile h2 {
+  .profile h3 {
     height: 42px;
     width: 228px;
     left: 49.4560546875px;
@@ -1685,9 +1685,9 @@
     height: 100px;
   }
 
-  .lang h2,
-  .frame h2,
-  .skill h2 {
+  .lang h3,
+  .frame h3,
+  .skill h3 {
     margin-left: 20px;
     margin-top: 45px;
   }
@@ -1723,13 +1723,13 @@
   }
 
   .introduction {
-    margin-left: 200px;
-    margin-top: 50px;
+    margin-left: 300px;
+    margin-top: 0;
     grid-column: 1/2;
     grid-row: 1/2;
   }
 
-  .introduction p {
+  .introduction h6 {
     color: #262626;
     height: 256px;
     width: 350px;
