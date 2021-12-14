@@ -1234,6 +1234,12 @@
     margin-left: 0;
     margin-right: 25px;
     background-image: url(assets/images/multi-post.svg);
+    transition-duration: 1.25s;
+    transition-delay: 0.25s;
+  }
+
+  .background:hover {
+    transform: scale(1.1);
   }
 
   .stories {
