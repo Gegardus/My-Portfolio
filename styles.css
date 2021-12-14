@@ -2,7 +2,7 @@
 
 /* This is header part */
 
-@media (max-width: 777px) {
+@media (max-width: 988px) {
   html,
   body {
     max-width: 100%;
@@ -520,7 +520,7 @@
     height: 440px;
     width: 327px;
     background: #091e42 url("assets/images/proj-img.svg");
-    background-repeat: no-repeat;    
+    background-repeat: no-repeat;
     background-size: cover;
   }
 
@@ -935,7 +935,7 @@
 
 /* Desktop Version */
 
-@media (min-width: 992px) {
+@media only screen and (min-width: 992px) {
   html,
   body {
     min-width: 100%;
@@ -1234,6 +1234,12 @@
     margin-left: 0;
     margin-right: 25px;
     background-image: url(assets/images/multi-post.svg);
+    transition-duration: 1.25s;
+    transition-delay: 0.25s;
+  }
+
+  .background:hover {
+    transform: scale(1.05);
   }
 
   .stories {
