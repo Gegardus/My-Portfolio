@@ -2,7 +2,7 @@
 
 /* This is header part */
 
-@media (max-width: 777px) {
+@media (max-width: 988px) {
   html,
   body {
     max-width: 100%;
@@ -935,7 +935,7 @@
 
 /* Desktop Version */
 
-@media (min-width: 1024px) {
+@media only screen and (min-width: 992px) {
   html,
   body {
     min-width: 100%;
