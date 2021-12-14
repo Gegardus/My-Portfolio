@@ -1043,9 +1043,8 @@
     display: flex;
     justify-content: left;
     background: #1c1a19 url(assets/images/Illustration-header.svg);
-    background-repeat: no-repeat;     
+    background-repeat: no-repeat;
     background-size: 3300px 550px;
-   
   }
 
   .main {
@@ -1193,7 +1192,7 @@
 
   .multi-works {
     display: grid;
-    grid-template-columns: 70% 30%;     
+    grid-template-columns: 70% 30%;
     margin-right: 100px;
   }
 
@@ -1244,7 +1243,7 @@
     margin-right: 0;
     border-radius: 0;
   }
-  
+
   .part-one,
   .part-two {
     display: grid;
@@ -1291,7 +1290,7 @@
     font-family: Inter, serif;
     font-size: 17px;
     font-style: normal;
-    font-weight: 700;         
+    font-weight: 700;
     line-height: 24px;
     letter-spacing: 0.03em;
     text-align: center;
@@ -1323,7 +1322,7 @@
     letter-spacing: 0;
     text-align: left;
   }
-                     
+
   .blue,
   .orange,
   .pink,
@@ -1357,7 +1356,7 @@
   .ruby {
     background-color: #ffffff3d;
     color: #fff;
-    border: none;    
+    border: none;
   }
 
   .html {
@@ -1553,11 +1552,11 @@
 
   .mount {
     display: grid;
-    grid-template-columns: 30% 70%;   
+    grid-template-columns: 30% 70%;
     margin-left: 140px;
   }
 
-  .story {    
+  .story {
     position: relative;
     left: 20px;
   }
@@ -1565,7 +1564,7 @@
   .pattern {
     margin-left: 398px;
     margin-top: 40px;
-    margin-right: 0;    
+    margin-right: 0;
     background: url("assets/images/Group.svg");
     background-repeat: no-repeat;
     background-color: #262626;
