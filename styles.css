@@ -519,7 +519,8 @@
     flex-direction: column;
     height: 440px;
     width: 327px;
-    background: url("assets/images/proj-img.svg") no-repeat;
+    background: #091e42 url("assets/images/proj-img.svg");
+    background-repeat: no-repeat;    
     background-size: cover;
   }
 
