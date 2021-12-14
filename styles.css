@@ -163,7 +163,7 @@
     left: 24px;
     top: 256px;
     font-family: Roboto, serif;
-    font-size: 24px;
+    font-size: 22px;
     font-style: normal;
     font-weight: bold;
     line-height: 32px;
@@ -1059,7 +1059,7 @@
     width: 500px;
     left: 0;
     font-family: Crete Round, serif;
-    font-size: 40px;
+    font-size: 58px;
     font-style: normal;
     font-weight: 400;
     line-height: 52px;
@@ -1069,14 +1069,14 @@
     margin-bottom: 15px;
   }
 
-  .main h3 {
+  .main h2 {
     height: 44px;
     width: 500px;
     color: #fff;
     font-family: Inter, serif;
-    font-size: 21px;
+    font-size: 24px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 34px;
     letter-spacing: 0;
     text-align: left;
