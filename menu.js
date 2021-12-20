@@ -1,3 +1,7 @@
-openNav = document.getElementById("mySidepanel").style.width = "100%";
+function openNav() {
+  openNav = document.getElementById("mySidepanel").style.width = "100%";
+}
 
-closeNav = document.getElementById("mySidepanel").style.width = "0";
+function closeNav() {
+  closeNav = document.getElementById("mySidepanel").style.width = "0";
+}
