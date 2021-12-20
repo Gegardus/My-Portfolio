@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
+
     <script
       async
       src="https://www.googletagmanager.com/gtag/js?id=G-9C5M1G1K6G"
@@ -24,6 +25,55 @@
     <!--This is header part-->
 
     <section class="container">
+      <!-- Sidepanel -->
+
+      <div id="mySidepanel" class="sidepanel">
+        <header class="pan-header">
+          <div class="pan-scoreboard">
+            <a class="pan-watch" href="#"
+              ><img src="assets/images/Time.svg" alt="time"
+            /></a>
+
+            <div class="pan-board">
+              <a href="#"
+                ><img
+                  src="assets/images/Cellular_Connection.svg"
+                  alt="mobile_connection"
+              /></a>
+              <a href="#"
+                ><img src="assets/images/Wifi.svg" alt="wifi_connection"
+              /></a>
+              <a href="#"
+                ><img src="assets/images/Capacity.svg" alt="power_bar"
+              /></a>
+            </div>
+          </div>
+
+          <nav class="pan-burger">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+              >×</a
+            >
+          </nav>
+        </header>
+
+        <div class="pan-content">
+          <a href="#myportfolio" class="closebtn" onclick="closeNav()"
+            ><h1>Portfolio</h1></a
+          >
+          <img src="assets/images/Separtor.svg" alt="" />
+          <a href="#meaboutme" class="closebtn" onclick="closeNav()"
+            ><h2>About</h2></a
+          >
+          <img src="assets/images/Separtor.svg" alt="" />
+          <a href="#mycontact" class="closebtn" onclick="closeNav()"
+            ><h3>Contact</h3></a
+          >
+          <img src="assets/images/Separtor.svg" alt="" />
+        </div>
+      </div>
+
+      <!-- End of Sidepanel  -->
+
       <header class="header">
         <div class="scoreboard">
           <a class="watch" href="#"
@@ -49,10 +99,9 @@
           <a class="name" href="assets/images/Vahan.jpg"
             ><p>Vahan Khachvankian</p></a
           >
-            <nav class="burger">
-            <button id="burger" type="button"><img src="assets/images/menu.png" alt="menu_bar"/></button>            
+          <nav class="burger">
+            <button id="burger" class="openbtn" onclick="openNav()">☰</button>
           </nav>
-
         </div>
       </header>
 
@@ -145,7 +194,7 @@
 
       <!--This is content part-->
 
-      <section class="mobile">
+      <section id="myportfolio" class="mobile">
         <div class="head">
           <h2 class="title">My Recent Works</h2>
           <hr />
@@ -300,7 +349,7 @@
           </article>
         </section>
 
-        <section class="aboutme">
+        <section id="meaboutme" class="aboutme">
           <div class="top">
             <h3>About me</h3>
 
@@ -364,7 +413,7 @@
 
       <!--This is footer part-->
 
-      <section class="footer">
+      <section id="mycontact" class="footer">
         <h4 class="invitation">
           I'm always interested in hearing about new projects, so if you'd like
           to chat please get in touch.
@@ -915,5 +964,7 @@
         </div>
       </section>
     </section>
+
+    <script src="menu.js"></script>
   </body>
 </html>
