@@ -2,7 +2,7 @@
 
 # Desktop Version
 
-for the Setup-and-mobile-version-skeleton project
+Setup-and-mobile-version-skeleton project
 
 > This is my first portfolio project in Microverse curriculum.
 
