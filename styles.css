@@ -33,7 +33,7 @@
     text-decoration: none;
     font-size: 25px;
     color: #67798e;
-    transition: 0.3s;
+    transition: 0.3s;   
   }
 
   .sidepanel a:hover {
@@ -62,11 +62,11 @@
   .pan-header {
     height: 72px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;      
   }
 
   .pan-content {
-    height: auto;
+    height: auto;   
   }
 
   .pan-scoreboard {
@@ -105,7 +105,6 @@
     margin-right: 50px;
     display: flex;
     flex-direction: row;
-    justify-content: right;
   }
 
   .pan-content {
@@ -176,7 +175,7 @@
     height: 72px;
     background-color: #3c3a39;
     display: flex;
-    flex-direction: column;
+    flex-direction: column;   
   }
 
   .scoreboard {
