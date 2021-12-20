@@ -1,4 +1,4 @@
-/*eslint-disable no-unused-vars*/
+/* eslint-disable no-unused-vars */
 
 function openNav() {
   document.getElementById('mySidepanel').style.width = '100%';
