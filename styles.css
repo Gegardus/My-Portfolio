@@ -9,6 +9,10 @@
     overflow-x: hidden;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   /* Sidepanel */
 
   #mySidepanel {
@@ -21,7 +25,6 @@
     height: 100%;
     position: fixed;
     z-index: 1;
-    height: auto;
     top: 0;
     left: 0;
     overflow-x: hidden;
@@ -33,11 +36,7 @@
     text-decoration: none;
     font-size: 25px;
     color: #67798e;
-    transition: 0.3s;   
-  }
-
-  .sidepanel a:hover {
-    color: #f1f1f1;
+    transition: 0.3s;
   }
 
   .sidepanel .closebtn {
@@ -62,11 +61,15 @@
   .pan-header {
     height: 72px;
     display: flex;
-    flex-direction: column;      
+    flex-direction: column;
   }
 
   .pan-content {
-    height: auto;   
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 70px;
   }
 
   .pan-scoreboard {
@@ -108,13 +111,6 @@
     justify-content: right;
   }
 
-  .pan-content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 70px;
-  }
-
   .pan-content a {
     width: 327px;
     height: 70px;
@@ -137,7 +133,7 @@
 
   .pan-content h1,
   .pan-content h2 {
-    font-family: Inter;
+    font-family: Inter, serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -147,7 +143,7 @@
   }
 
   .pan-content h3 {
-    font-family: Roboto;
+    font-family: Roboto, serif;
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -156,11 +152,11 @@
     text-align: left;
   }
 
-  /* End of Sidepanel */
-
-  a {
-    text-decoration: none;
+  .sidepanel a:hover {
+    color: #f1f1f1;
   }
+
+  /* End of Sidepanel */
 
   .grid {
     display: none;
@@ -176,7 +172,7 @@
     height: 72px;
     background-color: #3c3a39;
     display: flex;
-    flex-direction: column;   
+    flex-direction: column;
   }
 
   .scoreboard {
