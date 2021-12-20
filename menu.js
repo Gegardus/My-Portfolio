@@ -1,7 +1,9 @@
-function openNav() {
-  openNav = document.getElementById("mySidepanel").style.width = "100%";
-}
+// eslint-disable no-unused-vars
 
-function closeNav() {
-  closeNav = document.getElementById("mySidepanel").style.width = "0";
-}
+function openNav() {
+    document.getElementById('mySidepanel').style.width = '100%';
+  }
+  
+  function closeNav() {
+    document.getElementById('mySidepanel').style.width = '0';
+  }
