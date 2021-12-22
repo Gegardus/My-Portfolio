@@ -1,5 +1,5 @@
 const form = document.querySelector('.form-element');
-const message = 'Email must contain only lower case characters';
+const message = 'Email must contain only <br> lower case characters';
 
 function showMessage(input, message) {
   const msg = document.querySelector('.validation-msg');

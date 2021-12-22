@@ -110,25 +110,6 @@
     border: none;
   }
 
- /* .burger {
-    height: 24px;
-    width: 20px;
-    margin-left: 40px;
-    margin-right: 5px;
-    margin-bottom: 15px;
-    border-radius: 0;
-    align-self: center;
-    position: relative;
-    top: 18px;
-    right: 25px;
-  }
-
-  .burger a {
-    background-color: white;
-    margin-bottom: 5px;
-    padding-bottom: 0;
-  }*/
-
   .main {
     border-top: 1px solid slateblue;
     background: #1c1a19 url(assets/images/Illustration-header.svg) 272px 240px;
@@ -798,6 +779,15 @@
     width: 303px;
     margin: 12px;
     color: #3c3a39;
+  }
+
+  .error-msg {
+    background-color: #fbf8f7;
+    color: #3c3a39;   
+    font-family: Roboto, serif;
+    font-size: 15px;    
+    font-weight: 400;  
+    text-align: center;  
   }
 
   .touch {
@@ -1830,6 +1820,15 @@
     height: 90px;
     width: 595px;
     color: #3c3a39;
+  }
+
+  .error-msg {
+    background-color: #fbf8f7;
+    color: #3c3a39;   
+    font-family: Roboto, serif;
+    font-size: 15px;    
+    font-weight: 400;  
+    text-align: center;   
   }
 
   .touch {
