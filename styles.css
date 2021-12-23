@@ -1977,9 +1977,7 @@
     font-family: 'Roboto', serif;
     font-size: 15px;
     font-weight: 400;
-    text-align: left;
-    /* margin-top: 100px;
-    margin-left: 55px; */
+    text-align: left;  
     position: relative;
     top: 100px;
     left: 55px;
