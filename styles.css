@@ -930,8 +930,13 @@
     color: #3c3a39;
     font-family: 'Roboto', serif;
     font-size: 15px;
-    font-weight: 400;
-    text-align: center;
+    font-weight: 400;   
+    text-align: left;
+    position: relative;
+    bottom: 250px;
+    left: 25px;
+    z-index: 1;
+
   }
 
   .touch {
@@ -1972,7 +1977,13 @@
     font-family: 'Roboto', serif;
     font-size: 15px;
     font-weight: 400;
-    text-align: center;
+    text-align: left;
+    /* margin-top: 100px;
+    margin-left: 55px; */
+    position: relative;
+    top: 100px;
+    left: 55px;
+    z-index: 1;
   }
 
   .touch {
