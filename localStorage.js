@@ -23,3 +23,4 @@ function getValues() {
 }
 
 populateStorage();
+getValues();
