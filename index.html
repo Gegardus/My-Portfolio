@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="utf-8" />
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
     <script
@@ -14,8 +15,7 @@
       }
       gtag("js", new Date());
       gtag("config", "G-9C5M1G1K6G");
-    </script>
-    <meta charset="utf-8" />
+    </script>   
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Vahan's Portfolio home page</title>
     <link rel="stylesheet" href="styles.css" />
@@ -419,7 +419,7 @@
           to chat please get in touch.
         </h4>
 
-        <form action="https://formspree.io/f/mqknkkgn" method="POST">
+        <form action="https://formspree.io/f/mqknkkgn" method="POST" class="form-element">
           <ul>
             <li class="full-name">
               <label for="name"></label>
@@ -436,7 +436,7 @@
               <img class="break" src="assets/images/Container.svg" alt="line" />
             </li>
 
-            <li class="email">
+            <li class="email">             
               <label for="mail"></label>
               <input
                 class="text"
@@ -445,7 +445,8 @@
                 name="user_email"
                 placeholder="Email address"
                 required
-              />
+              />       
+
               <img class="break" src="assets/images/Container.svg" alt="line" />
             </li>
 
@@ -462,11 +463,14 @@
                 maxlength="500"
                 required
               ></textarea>
-            </li>
+            </li>                      
+            </div>
             <li class="btn">
               <button class="touch" type="submit">Get in touch</button>
             </li>
           </ul>
+          <div class="validation-msg">            
+          </div>    
         </form>
 
         <ul id="carte">
@@ -838,7 +842,7 @@
         </div>
 
         <div class="form">
-          <form action="https://formspree.io/f/mqknkkgn" method="POST">
+          <form action="https://formspree.io/f/mqknkkgn" method="POST" class="formDesk-element">
             <ul>
               <li class="my-name">
                 <label for="my-name"></label>
@@ -855,7 +859,7 @@
                 <img class="break" src="assets/images/Container.svg" alt="" />
               </li>
 
-              <li class="my-mail">
+              <li class="my-mail"> 
                 <label for="my-mail"></label>
                 <input
                   class="text"
@@ -881,12 +885,13 @@
                   maxlength="500"
                   required
                 ></textarea>
-              </li>
-
+              </li>            
               <li class="btn">
                 <button class="touch" type="submit">Get in touch</button>
               </li>
             </ul>
+            <div class="validationDesk-msg">                
+            </div>
           </form>
         </div>
 

@@ -925,6 +925,20 @@
     color: #3c3a39;
   }
 
+  .error-msg {
+    background-color: #fbf8f7;
+    color: #3c3a39;
+    font-family: 'Roboto', serif;
+    font-size: 15px;
+    font-weight: 400;   
+    text-align: left;
+    position: relative;
+    bottom: 250px;
+    left: 25px;
+    z-index: 1;
+
+  }
+
   .touch {
     height: 48px;
     width: 127px;
@@ -1955,6 +1969,19 @@
     height: 90px;
     width: 595px;
     color: #3c3a39;
+  }
+
+  .error-msg {
+    background-color: #fbf8f7;
+    color: #3c3a39;
+    font-family: 'Roboto', serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: left;  
+    position: relative;
+    top: 100px;
+    left: 55px;
+    z-index: 1;
   }
 
   .touch {
