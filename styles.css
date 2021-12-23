@@ -781,12 +781,7 @@
     color: #3c3a39;
   }
 
-  .error-msg {
-    background-color: #fbf8f7;
-    color: #3c3a39;   
-    font-family: Roboto, serif;
-    font-size: 15px;    
-    font-weight: 400;  
+  .error-msg {     
     text-align: center;  
   }
 
@@ -1822,12 +1817,7 @@
     color: #3c3a39;
   }
 
-  .error-msg {
-    background-color: #fbf8f7;
-    color: #3c3a39;   
-    font-family: Roboto, serif;
-    font-size: 15px;    
-    font-weight: 400;  
+  .error-msg {    
     text-align: center;   
   }
 
