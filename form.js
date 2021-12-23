@@ -36,12 +36,12 @@ form.addEventListener('submit', (event) => {
 
 const mediaQuery = window.matchMedia('( min-width: 992px )');
 
-function showMessage(input, message) {
+function showDeskMessage(input, message) {
   const msg = document.querySelector('.validationDesk-msg');
   msg.innerHTML = `<p class="error-msg">${message}</p>`;
 }
 
-function validateEmail(input) {
+function validateDeskEmail(input) {
   const value = input.toLowerCase();
   if (value.localeCompare(input) === 0) {
     return true;
@@ -57,13 +57,13 @@ if (mediaQuery.matches) {
     const msg = document.querySelector('.validationDesk-msg');
     event.preventDefault();
     const input = form.elements[1];
-    const emailValid = validateEmail(input.value);
+    const emailValid = validateDeskEmail(input.value);
     if (emailValid) {
       msg.remove();
       form.submit();
       form.reset();
     } else {
-      showMessage(input, message, false);
+      showDeskMessage(input, message, false);
     }
   });
 }
