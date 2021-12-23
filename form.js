@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 // Mobile
 
 const form = document.querySelector('.form-element');
@@ -37,6 +39,7 @@ const mediaQuery = window.matchMedia('( min-width: 992px )');
 if (mediaQuery.matches) {
   const form = document.querySelector('.formDesk-element');
   const message = 'Email must contain only <br> lower case characters';
+
   function showMessage(input, message) {
     const msg = document.querySelector('.validationDesk-msg');
     msg.innerHTML = `<p class="error-msg">${message}</p>`;
