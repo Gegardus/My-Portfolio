@@ -1,3 +1,5 @@
+// Mobile
+
 const form = document.querySelector('.form-element');
 const message = 'Email must contain only <br> lower case characters';
 
