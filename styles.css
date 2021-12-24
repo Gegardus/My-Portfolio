@@ -281,7 +281,7 @@
     height: 135px;
   }
 
-  .rank h1 {
+  .rank .heading {
     border-left: 20px;
     color: #ff6b00;
     height: 124px;

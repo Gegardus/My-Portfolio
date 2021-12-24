@@ -26,14 +26,13 @@ populateStorage();
 getValues();
 
 const name2 = document.querySelector('#my-name');
-  const email2 = document.querySelector('#my-mail');
-  const message2 = document.querySelector('#my-msg');
+const email2 = document.querySelector('#my-mail');
+const message2 = document.querySelector('#my-msg');
 
 const storeValues2 = (name2, email2, message2) => {
   const dataObject2 = JSON.stringify({ name2, email2, message2 });
   localStorage.setItem('dataObject2', dataObject2);
 };
-
 
 function populateStorage2() {
   const formValues2 = JSON.parse(localStorage.getItem('dataObject2'));
