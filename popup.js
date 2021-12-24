@@ -96,4 +96,9 @@ const projects = [
   
   const buttonOne = document.querySelector(".bn-button");
   const buttonTwo = document.querySelector(".pr-button");
+
+  function close() {
+    const container = document.querySelector(".popup-container");
+    container.style.display = "none";
+  }
   
