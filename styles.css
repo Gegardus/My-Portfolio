@@ -190,28 +190,6 @@
     border: none;
   }
 
-  .pop-html,
-  .pop-boot,
-  .pop-ruby {
-    height: 30px;
-  }
-
-  .pop-back {
-    height: 220px;
-    width: 311px;
-    left: 16px;
-    top: 170px;
-    border-radius: 0;
-    background-image: url("assets/images/popMob.png");
-    background-repeat: no-repeat;
-    height: 45px;
-    padding: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-  }
-
   .live span,
   .sorce span {
     padding: 5px;
