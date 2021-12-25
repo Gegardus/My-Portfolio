@@ -338,7 +338,7 @@
       opacity: 1;
       pointer-events: all;
     }
-  }
+  
 
   .pop-back {
     height: 220px;
@@ -399,7 +399,7 @@
     background-color: #ff6b00;
     border: none;
   }
-  
+
     .pop-html,
     .pop-boot,
     .pop-ruby {
@@ -1517,12 +1517,12 @@
     background: #ff7f50;
   }
 
-  .ruby:active {
+ .ruby:active {
     background: #ff7f50;
   }
 }
 
-/* Desktop Version */
+  /* Desktop Version */
 
 @media only screen and (min-width: 992px) {
   html,
