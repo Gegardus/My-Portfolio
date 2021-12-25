@@ -953,7 +953,7 @@
     margin-bottom: 104px;
   }
 
-  ul#carte li {
+  .footer ul#carte li {
     height: 72px;
     width: 375px;
     color: #505f79;
@@ -2242,7 +2242,7 @@
     height: 70px;
   }
 
-  .my-carte .github {
+  .footer .my-carte .github {
     height: 20px;
     width: 17.985200881958008px;
   }
