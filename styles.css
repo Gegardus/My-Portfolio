@@ -928,15 +928,14 @@
   .error-msg {
     background-color: #fbf8f7;
     color: #3c3a39;
-    font-family: 'Roboto', serif;
+    font-family: "Roboto", serif;
     font-size: 15px;
-    font-weight: 400;   
+    font-weight: 400;
     text-align: left;
     position: relative;
     bottom: 250px;
     left: 25px;
     z-index: 1;
-
   }
 
   .touch {
@@ -1090,7 +1089,7 @@
   .modal {
     display: flex;
     flex-direction: column;
-    height: 100%;  
+    height: 100%;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -1219,10 +1218,10 @@
     height: 200px;
     width: 311px;
     font-family: Inter, serif;
-    font-size: 16px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 20px;
     letter-spacing: 0em;
     text-align: left;
   }
@@ -1234,7 +1233,7 @@
     width: 500px;
     height: 55px;
     border: none;
-    margin-top: 30px;
+    margin-top: 0;
   }
 
   .pop-pro button {
@@ -1280,22 +1279,21 @@
     margin-top: 7px;
   }
 
-#overlay {
-  position: fixed;
-  opacity: 0;
-  transition: 200ms ease-in-out;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  pointer-events: none;
-}
+  #overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+  }
 
-#overlay.active {
-  opacity: 1;
-  pointer-events: all;
-}
-
+  #overlay.active {
+    opacity: 1;
+    pointer-events: all;
+  }
 }
 
 /* Desktop Version */
@@ -1303,7 +1301,7 @@
 @media only screen and (min-width: 992px) {
   html,
   body {
-    min-width: 100%;
+    width: 100%;
     overflow-x: hidden;
   }
 
@@ -2184,10 +2182,10 @@
   .error-msg {
     background-color: #fbf8f7;
     color: #3c3a39;
-    font-family: 'Roboto', serif;
+    font-family: "Roboto", serif;
     font-size: 15px;
     font-weight: 400;
-    text-align: left;  
+    text-align: left;
     position: relative;
     top: 100px;
     left: 55px;
@@ -2333,19 +2331,19 @@
     background: #ff7f50;
   }
 
-
   .modal {
     display: flex;
     flex-direction: column;
-    height: 100%;   
+    height: 100%;
     position: fixed;
     top: 50%;
     left: 50%;
+    padding-left: 15px;
     transform: translate(-50%, -50%) scale(0);
     transition: 200ms ease-in-out;
     z-index: 10;
     background-color: white;
-    max-width: 100%;
+    width: 1400px;
   }
 
   .modal.active {
@@ -2384,7 +2382,7 @@
     width: 15px;
     left: 6px;
     top: 6px;
-    border-radius: 0;   
+    border-radius: 0;
     cursor: pointer;
     border: none;
     outline: none;
@@ -2457,7 +2455,7 @@
     display: grid;
     grid-template-columns: 60% 40%;
     height: 540px;
-    width: 100%
+    width: 100%;
   }
 
   .pop-back {
