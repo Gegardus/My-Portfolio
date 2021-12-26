@@ -23,8 +23,7 @@
     transform: translate(-50%, -50%) scale(0);
     transition: 200ms ease-in-out;
     z-index: 10;
-    background-color: white;
-    width: 500px;
+    background-color: white; 
     max-width: 100%;
   }
 
@@ -183,11 +182,19 @@
     margin-left: 5px;
   }
 
+  .live {
+   width: 95px;
+  }
+
+  .sorce {
+    width: 110px;;
+  }
+
   .live,
   .sorce {
     color: #fff;
     background-color: #ff6b00;
-    border: none;
+    border: none;   
   }
 
   .live span,
@@ -197,7 +204,7 @@
 
   .live img,
   .sorce img {
-    margin-top: 7px;
+    margin-top: 15px;
   }
 
   #overlay {
@@ -1311,7 +1318,7 @@
     transition: 200ms ease-in-out;
     z-index: 10;
     background-color: white;
-    width: 1400px;
+    width: 100%;
   }
 
   .modal.active {
